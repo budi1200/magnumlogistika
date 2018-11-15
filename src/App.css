@@ -63,25 +63,29 @@ a{
 }
 
 .body-image-wrapper{
-  display: flex;
   justify-content: center;
 }
 
 .body-list-wrapper{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+}
+
+.body-list-wrapper-inner{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .body-list-side{
-  width: 100%;
   background-color: rgba(194, 59, 34,.5);
+  width: 100%;
+  height: 100%;
 }
 
 .body-list{
-  display: flex;
   list-style-type: none;
   padding-left: 0;
   margin: 0;
@@ -160,7 +164,8 @@ a{
 
 .body-header-image{
   height: 300px;
-  background-size: cover;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* Kontakt Page */
@@ -196,7 +201,6 @@ a{
 .onas-wrapper{
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 20px;
 }
 

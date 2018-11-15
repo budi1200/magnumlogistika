@@ -10,17 +10,12 @@ class ONas extends Component{
         return(
             <div>
                 <Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage} active="o-nas"/>
-                <HeaderImage bgImage="./img/onas_header_compressed.jpg"/>
+                <HeaderImage bgImage="./assets/img/onas_header.jpg"/>
                 <div className="onas-wrapper">
-                    <h3>{lang.onas.title}</h3>
-                    <ul>
-                        <li>{lang.onas.ime_podj}</li>
-                        <li>{lang.onas.naslov_podj}</li>
-                        <li>{lang.onas.kraj_podj}</li>
-                        <li>{lang.onas.st_podj}</li>
-                        <li>{lang.onas.naslov_podj_2}</li>
-                        <li>{lang.onas.kraj_podj_2}</li>
-                    </ul>
+                    <h3>{lang.onas.title1}</h3>
+                    <p>{lang.onas.desc1}</p>
+                    <h3>{lang.onas.title2}</h3>
+                    <p>{lang.onas.desc2}</p>
                 </div>
             </div>
         );

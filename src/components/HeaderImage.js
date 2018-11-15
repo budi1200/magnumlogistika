@@ -2,12 +2,8 @@ import React, { Component } from 'react';
 
 class HeaderImage extends Component{
     render(){
-
-        const backgroundImage = {
-            backgroundImage: "url('" + this.props.bgImage + "')",
-        }
         return(
-            <div style={backgroundImage} className="body-header-image"></div>
+            <img className="body-header-image" src={this.props.bgImage}/>
         );
     }
 }

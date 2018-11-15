@@ -7,7 +7,7 @@ class Servis extends Component{
         return(
             <div>
             <Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage} active="servis"/>
-            <HeaderImage bgImage="./img/servis_header.jpg"/>
+            <HeaderImage bgImage="./assets/img/servis_header.jpg"/>
             </div>
         );
     }

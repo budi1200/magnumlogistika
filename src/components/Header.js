@@ -17,7 +17,7 @@ class Header extends Component{
         }
 
         const logo_img = {
-            backgroundImage: "url('./img/magnum_logistika_logo.png')",
+            backgroundImage: "url('./assets/img/magnum_logistika_logo.png')",
         }
 
         return(
