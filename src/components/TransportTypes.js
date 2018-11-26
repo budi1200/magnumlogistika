@@ -9,7 +9,8 @@ class TransportTypes extends Component{
 
     state = {
         'height': this.getHeight(),
-        transport_img: './assets/img/front_fixed3_compressed.jpg',
+        //transport_img: './assets/img/front_fixed3_compressed.jpg',
+        transport_img: './assets/img/bg.jpg',
         showImgText: false,
     }
 
@@ -61,25 +62,9 @@ class TransportTypes extends Component{
         return(
             <div style={bg_img}>
                 <div className="body-list-wrapper">
-                    <div className="body-list-wrapper-inner">
-                        <div className="body-list-side"></div>
-                        <ul className="body-list">
-                            <li style={this.state.transport_img === frontPageContent[0].bgImage ? transparent_bg : null } onClick={() => {this.setState({transport_img: frontPageContent[0].bgImage, showImgText: "ship"})}}>
-                                <img className="list-img" alt={frontPageContent[0].name} src={frontPageContent[0].icon}/>    
-                                <span>{frontPageContent[0].name}</span>
-                            </li>
-                            <li style={this.state.transport_img === frontPageContent[1].bgImage ? transparent_bg : null } onClick={() => {this.setState({transport_img: frontPageContent[1].bgImage, showImgText: "road"})}}>
-                                <img className="list-img" alt={frontPageContent[1].name} src="./assets/img/truck2.png"/>    
-                                <span>{frontPageContent[1].name}</span>
-                            </li>
-                            <Link to="/trgovina">
-                                <li>
-                                    <img className="list-img" alt="Trgovina" src="./assets/img/shopping-cart.svg"/>
-                                    <span>{lang.content.shop}</span>
-                                </li>
-                            </Link>
-                        </ul>
-                        <div className="body-list-side"></div>
+                    <div>
+                        <h1>{lang.content.main_title}</h1>
+                        <h4>{lang.content.main_subtitle}</h4>
                     </div>
                 </div>
             </div>

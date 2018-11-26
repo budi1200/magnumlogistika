@@ -12,7 +12,7 @@ class Kontakt extends Component{
             <div>
                 <Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage} active="kontakt"/>
                 
-                <HeaderImage bgImage='./assets/img/kontakt_header_compressed.jpg'/>
+                <HeaderImage bgImage='./assets/img/kontakt_header_compressed.jpg' text={lang.header.contact}/>
                 
                 <div className="kontakt-wrapper">
                     
