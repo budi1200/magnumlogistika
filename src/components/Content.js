@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import Header from './Header';
 import TransportTypes from './TransportTypes';
 import { Link } from 'react-router-dom';
+import HomePonudba from './HomePonudba';
+import HomePodrocje from './HomePodrocje';
+import HomeZakaj from './HomeZakaj';
+import HomeStik from './HomeStik';
 
 class Content extends Component{
 
@@ -18,17 +22,10 @@ class Content extends Component{
             <div>
                 <Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage}/>
                 <TransportTypes ref="RefTransportTypes" img={this.state.transport_img} currentLang={lang}/>
-								<div>
-									Kaj vam nudimo?
-								</div>
-
-								<div>
-									Zakaj nas izbrati?
-								</div>
-
-								<div>
-									Kontakt
-								</div>
+                <HomePonudba currentLang={this.props.currentLang}/>
+								<HomePodrocje currentLang={this.props.currentLang}/>
+								<HomeZakaj currentLang={this.props.currentLang}/>
+								<HomeStik currentLang={this.props.currentLang}/>
 
 								<div>footer</div>
             </div>

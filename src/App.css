@@ -341,3 +341,12 @@ a{
 .menu a:first-child{
     margin-bottom: 5px;
 }
+
+.section-wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.section-title{
+	text-align: center;
+}

@@ -36,7 +36,28 @@ const lang1 = {
         vulkanizerstvo_title: "Vulkanizerstvo ter premontaža pnevmatik VIANOR",
         telefon: "Telefon",
         mail: "E-Mail"
-    }
+    },
+    HomePonudba: {
+				title: 'Kaj vam nudimo?',
+				ponudbe: ['Izredni prevozi', 'Kontejnerski prevozi', 'Ladijski prevozi', 'Železniški transport', 'Letalske pošiljke', 'Preklade tovora' ]
+		},
+		HomePodrocje: {
+			title: 'Področje delovanja',
+			desc: 'Storitve kontejnerskih in izrednih prevozov vam nudimo na področju celotne Evrope.',
+			desc2: 'Prevoze s ponjavo oziroma uvoz paletnega blaga pa vam nudimo iz Češke, Poljske, Slovaške in Italije v Slovenijo. Omogočamo vam prevoz do 25 euro palet, oziroma prevoz do 23t nosilnosti.'
+		},
+		HomeZakaj: {
+			title: 'Zakaj nas izbrati?',
+			razlogi: ['Prilagodljivost individualnim zahtevam naših strank', 'Kakovost in zanesljivost', 'Korektnost in ugodni prevozi', 'Varnost in točnost', 'Profesionalnost', 'Dolgoletne izkušnje', 'Prijazno osebje in izjemna ustrežljivost']
+		},
+		HomeStik: {
+			title: 'Vstopite v stik z nami',
+			phone: '+386 31 590 606',
+			email: 'rok@magnum-logistika.si?????????????',
+		},
+		Footer: {
+
+		}
 }
 
 export {lang1};
