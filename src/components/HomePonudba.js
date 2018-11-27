@@ -7,8 +7,8 @@ export default class HomePonudba extends Component{
     
     return(
       <div className='section-wrapper'>
-        <span className='section-title'>{lang.HomePonudba.title}</span>
-        <ul>
+        <h1 className='section-title'>{lang.HomePonudba.title}</h1>
+        <ul className='ponudba-list'>
 					{lang.HomePonudba.ponudbe.map((ponudba, index) => {
 						return(<li key={index}>{ponudba}</li>);
 					})}

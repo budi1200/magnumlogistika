@@ -7,7 +7,7 @@ export default class HomePodrocje extends Component{
 
 		return(
 			<div className='section-wrapper'>
-				<span className='section-title'>{lang.HomePodrocje.title}</span> <br/>
+				<h1 className='section-title'>{lang.HomePodrocje.title}</h1> <br/>
 				<img style={{objectFit: 'contain'}} src='./assets/img/podrocje.png'/>
 				<p>
 					{lang.HomePodrocje.desc}

@@ -11,7 +11,7 @@ class ONas extends Component{
             <div>
                 <Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage} active="o-nas"/>
                 <HeaderImage bgImage="./assets/img/onas_header.jpg" text={lang.header.about}/>
-                <div className="onas-wrapper">
+                <div className="onas-wrapper center">
                     <h3>{lang.onas.title1}</h3>
                     <p>{lang.onas.desc1}</p>
                     <h3>{lang.onas.title2}</h3>

@@ -6,6 +6,7 @@ import HomePonudba from './HomePonudba';
 import HomePodrocje from './HomePodrocje';
 import HomeZakaj from './HomeZakaj';
 import HomeStik from './HomeStik';
+import Footer from './Footer';
 
 class Content extends Component{
 
@@ -26,8 +27,7 @@ class Content extends Component{
 								<HomePodrocje currentLang={this.props.currentLang}/>
 								<HomeZakaj currentLang={this.props.currentLang}/>
 								<HomeStik currentLang={this.props.currentLang}/>
-
-								<div>footer</div>
+								<Footer currentLang={this.props.currentLang}/>
             </div>
         );
     }

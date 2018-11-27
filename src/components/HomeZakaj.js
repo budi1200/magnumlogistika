@@ -7,7 +7,7 @@ export default class HomeZakaj extends Component{
 
 		return(
 			<div className='section-wrapper'>
-				<span className='section-title'>{lang.HomeZakaj.title}</span>
+				<h1 className='section-title'>{lang.HomeZakaj.title}</h1>
 				<p>{lang.HomeZakaj.desc}</p>
 				<ul>
 					{lang.HomeZakaj.razlogi.map((razlog, index) => {

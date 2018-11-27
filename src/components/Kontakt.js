@@ -14,7 +14,7 @@ class Kontakt extends Component{
                 
                 <HeaderImage bgImage='./assets/img/kontakt_header_compressed.jpg' text={lang.header.contact}/>
                 
-                <div className="kontakt-wrapper">
+                <div className="kontakt-wrapper center">
                     
                     <div>
                         <h3>{lang.kontakt.uprava_title}</h3>

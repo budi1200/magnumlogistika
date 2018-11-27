@@ -8,12 +8,7 @@ const lang1 = {
     },
     content: {
 				main_title: 'Izredni prevozi, Organizirani ladijski prevozi, železniški transport',
-				main_subtitle: 'asdfghj',
-        ladijski_name: 'Ladijski Prevozi',
-        ladijski_text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolore voluptate enim fuga, nostrum sit at dignissimos. Itaque sunt ullam hic iusto aut, et assumenda libero, magnam, quo fugit recusandae?',
-        cestni_name: 'Cestni Prevozi',
-        cestni_text: 'ipsum dolor sique sunt ullam hic iusto aut, et assumenda libero, magnam, quo fugit recusandae?',
-        shop: 'Trgovina',
+				main_subtitle: 'description'
     },
     onas: {
         title: "O Podjetju",

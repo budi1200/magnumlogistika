@@ -7,7 +7,7 @@ export default class HomeStik extends Component{
 
 		return(
 			<div className='section-wrapper'>
-				<span className='section-title'>{lang.HomeStik.title}</span>
+				<h1 className='section-title'>{lang.HomeStik.title}</h1>
 				<ul>
 					<li><a href={"tel:" +lang.HomeStik.phone}>{lang.HomeStik.phone}</a></li>
 					<li><a href={"mailto:" + lang.HomeStik.email}>{lang.HomeStik.email}</a></li>
