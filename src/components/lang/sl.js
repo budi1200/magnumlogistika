@@ -34,7 +34,33 @@ const lang1 = {
     },
     HomePonudba: {
 				title: 'Kaj vam nudimo?',
-				ponudbe: ['Izredni prevozi', 'Kontejnerski prevozi', 'Ladijski prevozi', 'Železniški transport', 'Letalske pošiljke', 'Preklade tovora' ]
+				ponudbe2: ['Izredni prevozi', 'Kontejnerski prevozi', 'Ladijski prevozi', 'Železniški transport', 'Letalske pošiljke', 'Preklade tovora' ],
+				ponudbe: [
+					{
+						name: 'Izredni prevozi', 
+						img: './assets/img/icons/izredni.svg'
+					},
+					{
+						name: 'Kontejnerski prevozi',
+						img: './assets/img/icons/container.svg'
+					},
+					{
+						name: 'Ladijski prevozi',
+						img: './assets/img/icons/cargo.svg'
+					},
+					{
+						name: 'Železniški transport',
+						img: './assets/img/icons/train.svg'
+					},
+					{
+						name: 'Letalske pošiljke',
+						img: './assets/img/icons/plane.svg'
+					},
+					{
+						name: 'Preklade tovora',
+						img: './assets/img/icons/forklift.svg'
+					}
+				]
 		},
 		HomePodrocje: {
 			title: 'Področje delovanja',

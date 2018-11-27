@@ -6,9 +6,9 @@ export default class HomePodrocje extends Component{
 		const lang = this.props.currentLang;
 
 		return(
-			<div className='section-wrapper'>
+			<div className='section-wrapper podrocje'>
 				<h1 className='section-title'>{lang.HomePodrocje.title}</h1> <br/>
-				<img style={{objectFit: 'contain'}} src='./assets/img/podrocje.png'/>
+				<img src='./assets/img/podrocje.png'/>
 				<p>
 					{lang.HomePodrocje.desc}
 				</p>

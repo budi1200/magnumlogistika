@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import moment from 'moment';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export default class Footer extends Component{
 	render(){
@@ -11,10 +13,10 @@ export default class Footer extends Component{
 					</div>
 					<div>
 						<h3>Magnum Logistika</h3>
-						<ul>
-							<li>Domov</li>
-							<li>O Nas</li>
-							<li>Kontakt</li>
+						<ul className="footer-big-list">
+							<li><HashLink to="/#header-wrapper" smooth>Domov</HashLink></li>
+							<li><Link to="/o-nas">O Nas</Link></li>
+							<li><Link to="/kontakt">Kontakt</Link></li>
 						</ul>
 					</div>
 					<div>
@@ -22,7 +24,7 @@ export default class Footer extends Component{
 						<ul>
 							<li>Magnum logistika d.o.o.</li>
 							<li>Obrtniška ul. 10,  3240 Šmarje pri Jelšah</li>
-							<li><a href="tel:+38631590606">+386 31 590 606</a></li>
+							<li><a className="footer-big-phone" href="tel:+38631590606">+386 31 590 606</a></li>
 						</ul>
 					</div>
 				</div>

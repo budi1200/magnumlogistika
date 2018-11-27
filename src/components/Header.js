@@ -21,7 +21,7 @@ class Header extends Component{
         }
 
         return(
-            <div className="header-wrapper">
+            <div id="header-wrapper" className="header-wrapper">
                 <Link to="/"><div style={logo_img} className="logo"></div></Link>
                 <div className="header-links">
                     <ul>

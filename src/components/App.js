@@ -44,7 +44,7 @@ class App extends Component {
         lang = lang1;
         break;
     }
-    console.log(lang);
+    //console.log(lang);
   }
 
   componentWillMount() {
