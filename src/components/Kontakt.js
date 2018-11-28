@@ -53,7 +53,7 @@ class Kontakt extends Component{
                                 <li>{lang.kontakt.mail}: <a href="mailto:natasa@magnum-logistika.si">natasa@magnum-logistika.si</a></li>
                             </ul>
 
-                            <li className="kontakt-main_li">Jaka Rihatrič Horvat</li>
+                            <li className="kontakt-main_li">Jaka Rihtarič Horvat</li>
                             <ul>
                                 <li>{lang.kontakt.telefon}: <a href="tel:+38670267180">+386 70 267 180</a></li>
                                 <li>{lang.kontakt.mail}: <a href="mailto:jaka@magnum-logistika.si">jaka@magnum-logistika.si</a></li>
@@ -86,6 +86,17 @@ class Kontakt extends Component{
                             </ul>
                         </ul>
                     </div>
+
+										<div>
+											<h3>{lang.kontakt.trgovina_title}</h3>
+											<ul className="kontakt-main_ul">
+												<li className="kontakt-main_li">Nina Lpavec</li>
+												<ul>
+													<li>{lang.kontakt.telefon}: <a href="tel:+38670777117">+386 70 777 117</a></li>
+													<li>{lang.kontakt.mail}: <a href="mailto:nina@magnum-logistika.si">nina@magnum-logistika.si</a></li>
+												</ul>
+											</ul>
+										</div>
 
                 </div>
 

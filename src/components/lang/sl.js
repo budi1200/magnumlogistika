@@ -28,7 +28,8 @@ const lang1 = {
         racunovodstvo_title: "Računovodstvo",
         prevozi_title: "Organizacija prevozov",
         delavnica_title: "Servisna Delavnica",
-        vulkanizerstvo_title: "Vulkanizerstvo ter premontaža pnevmatik VIANOR",
+				vulkanizerstvo_title: "Vulkanizerstvo ter premontaža pnevmatik VIANOR",
+				trgovina_title: "Trgovina z rezervnimi deli",
         telefon: "Telefon",
         mail: "E-Mail"
     },

@@ -8,10 +8,10 @@ export default class Footer extends Component{
 		return(
 			<div className="footer-section-wrapper">
 				<div className="footer-big-wrapper">
-					<div>
+					<div className="footer-big-img-wrapper">
 						<img width="300" src="./assets/img/magnum_logistika_logo.png"/>
 					</div>
-					<div>
+					<div className="footer-big-section">
 						<h3>Magnum Logistika</h3>
 						<ul className="footer-big-list">
 							<li><HashLink to="/#header-wrapper" smooth>Domov</HashLink></li>
@@ -19,7 +19,7 @@ export default class Footer extends Component{
 							<li><Link to="/kontakt">Kontakt</Link></li>
 						</ul>
 					</div>
-					<div>
+					<div className="footer-big-section">
 						<h3>Kontakt</h3>
 						<ul>
 							<li>Magnum logistika d.o.o.</li>

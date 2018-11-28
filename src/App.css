@@ -444,12 +444,25 @@ a{
 	margin: 0 auto;
 }
 
+.footer-big-img-wrapper{
+	display: flex;
+}
+
+.footer-big-wrapper img{
+	align-self: center;
+}
+
+.footer-big-section{
+	padding-left: 10px;
+}
+
 .footer-big-phone{
 	color: rgb(217, 48, 37);
 }
 
 .footer-big-list{
 	list-style-type: none;
+	padding-left: 15px;
 }
 
 .footer-copyright-wrapper{
