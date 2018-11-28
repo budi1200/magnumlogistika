@@ -124,6 +124,7 @@ a{
 	text-shadow: 1px 1px 1px #242f2f;
 	text-align: center;
 	background-color: rgba(41, 58, 62, 0.39);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .body-list-wrapper-inner{
@@ -399,7 +400,7 @@ a{
 	justify-content: center;
 	width: 215px;
 	height: 215px;
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.0);
 	border-radius: 10px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	transition: all .2s;
@@ -418,6 +419,21 @@ a{
 	object-fit: fill;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	border-radius: 10px;
+}
+
+.homezakaj-inner-wrapper{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 16px;
+}
+
+.homezakaj-inner-wrapper ul{
+	margin: 0 auto;
+}
+
+.homezakaj-inner-wrapper img{
+	border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .footer-section-wrapper{
