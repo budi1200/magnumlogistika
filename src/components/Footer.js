@@ -22,7 +22,7 @@ export default class Footer extends Component{
 					<div className="footer-big-section">
 						<h3>Kontakt</h3>
 						<ul>
-							<li>Magnum logistika d.o.o.</li>
+							<li style={{fontWeight: 'bold'}}>Magnum logistika d.o.o.</li>
 							<li>Obrtniška ul. 10,  3240 Šmarje pri Jelšah</li>
 							<li><a className="footer-big-phone" href="tel:+38631590606">+386 31 590 606</a></li>
 						</ul>

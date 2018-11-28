@@ -35,7 +35,6 @@ const lang1 = {
     },
     HomePonudba: {
 				title: 'Kaj vam nudimo?',
-				ponudbe2: ['Izredni prevozi', 'Kontejnerski prevozi', 'Ladijski prevozi', 'Železniški transport', 'Letalske pošiljke', 'Preklade tovora' ],
 				ponudbe: [
 					{
 						name: 'Izredni prevozi', 
@@ -69,13 +68,13 @@ const lang1 = {
 			desc2: 'Prevoze s ponjavo oziroma uvoz paletnega blaga pa vam nudimo iz Češke, Poljske, Slovaške in Italije v Slovenijo. Omogočamo vam prevoz do 25 euro palet, oziroma prevoz do 23t nosilnosti.'
 		},
 		HomeZakaj: {
-			title: 'Zakaj nas izbrati?',
+			title: 'Zakaj izbrati nas?',
 			razlogi: ['Prilagodljivost individualnim zahtevam naših strank', 'Kakovost in zanesljivost', 'Korektnost in ugodni prevozi', 'Varnost in točnost', 'Profesionalnost', 'Dolgoletne izkušnje', 'Prijazno osebje in izjemna ustrežljivost']
 		},
 		HomeStik: {
 			title: 'Vstopite v stik z nami',
 			phone: '+386 31 590 606',
-			email: 'rok@magnum-logistika.si?????????????',
+			email: 'rok@magnum-logistika.si',
 		},
 		Footer: {
 

@@ -416,6 +416,7 @@ a{
 }
 
 .podrocje img{
+	height: 500px;
 	object-fit: fill;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	border-radius: 10px;
@@ -424,7 +425,8 @@ a{
 .homezakaj-inner-wrapper{
 	display: flex;
 	justify-content: flex-end;
-	margin-top: 16px;
+	margin-top: 4px;
+	align-items: center;
 }
 
 .homezakaj-inner-wrapper ul{
@@ -432,10 +434,13 @@ a{
 }
 
 .homezakaj-inner-wrapper img{
-	border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
+
+/* FOOTER */
 .footer-section-wrapper{
 	background-color: #332e2e;
 	color: white;
@@ -443,6 +448,18 @@ a{
 
 .footer-section-wrapper h3{
 	font-weight: normal;
+	margin-bottom: 0px;
+	color: rgb(217, 48, 37);
+}
+
+.footer-big-section ul{
+	margin-top: 6px;
+	list-style-type: none;
+	padding-left: 6px;
+}
+
+.footer-big-section li{
+	padding-bottom: 8px;
 }
 
 .footer-section-wrapper a{
@@ -469,11 +486,11 @@ a{
 }
 
 .footer-big-section{
-	padding-left: 10px;
+	padding-left: 40px;
 }
 
 .footer-big-phone{
-	color: rgb(217, 48, 37);
+	color: rgb(217, 48, 37) !important;
 }
 
 .footer-big-list{
@@ -484,4 +501,10 @@ a{
 .footer-copyright-wrapper{
 	max-width: 960px;
 	margin: 0 auto;
+	padding: 8px;
+  border-top: 1px solid #544e4e;
+}
+
+.footer-copyright-wrapper a{
+	color: rgb(217, 48, 37);
 }
