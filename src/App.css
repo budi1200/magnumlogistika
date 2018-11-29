@@ -1,9 +1,9 @@
 body{
-    font-family: "Open Sans", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .center{
@@ -12,14 +12,14 @@ a{
 }
 
 .header-wrapper{
-    display: flex;
-    justify-content: space-between;
-		align-items: center;
-		margin: 0 auto;
-		max-width: 960px;
-		padding: 10px 0;
-		background: white;
-    /*border-bottom: 1px solid #eceff1;*/
+  display: flex;
+  justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 10px 0;
+	background: white;
+  /*border-bottom: 1px solid #eceff1;*/
 }
 
 .logo{
@@ -116,7 +116,7 @@ a{
 }
 
 .body-list-wrapper{
-	font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
   height: 100%;
   display: flex;
   align-items: center;
@@ -221,7 +221,7 @@ a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 300px;
+	height: 350px;
 }
 
 .body-header-image-wrapper video{
@@ -250,7 +250,7 @@ a{
 	font-weight: bold;
 	font-size: 3rem;
 	text-shadow: 1px 1px 1px #242f2f;
-	font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
 }
 
 /* Kontakt Page */
@@ -365,9 +365,9 @@ a{
 }
 
 .section-title{
-	font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
 	text-align: center;
-	text-shadow: 1px 1px 1px rgba(217, 48, 37, 0.16);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.12);
 	position: relative;
 	width: fit-content;
 	align-self: center;
@@ -436,6 +436,10 @@ a{
 	object-fit: fill;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	border-radius: 10px;
+}
+
+.podrocje p{
+	font-size: 1.15rem;
 }
 
 .homezakaj-inner-wrapper{
