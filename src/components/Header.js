@@ -8,16 +8,12 @@ class Header extends Component{
 
         const lang = this.props.currentLang;
 
-        const active = {
-            //backgroundColor: '#fce8e6',
-        }
-
         const active_link = {
             color: '#d93025',
         }
 
         const logo_img = {
-            backgroundImage: "url('./assets/img/magnum_logistika_logo.png')",
+            backgroundImage: "url('/assets/img/magnum_logistika_logo.png')",
         }
 
         return(

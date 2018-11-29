@@ -15,6 +15,9 @@ export default class HomePodrocje extends Component{
 				<p>
 					{lang.HomePodrocje.desc2}
 				</p>
+				<p>
+					{lang.HomePodrocje.desc3}
+				</p>
 			</div>
 		);
 	}

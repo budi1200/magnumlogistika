@@ -37,26 +37,32 @@ const lang1 = {
 				title: 'Kaj vam nudimo?',
 				ponudbe: [
 					{
+						path: 'izredni-prevozi',
 						name: 'Izredni prevozi', 
 						img: './assets/img/icons/izredni.svg'
 					},
 					{
+						path: 'kontejnerski-prevozi',
 						name: 'Kontejnerski prevozi',
 						img: './assets/img/icons/container.svg'
 					},
 					{
+						path: 'ladijski-prevozi',
 						name: 'Ladijski prevozi',
 						img: './assets/img/icons/cargo.svg'
 					},
 					{
+						path: 'zelezniski-transport',
 						name: 'Železniški transport',
 						img: './assets/img/icons/train.svg'
 					},
 					{
+						path: 'letalske-posiljke',
 						name: 'Letalske pošiljke',
 						img: './assets/img/icons/plane.svg'
 					},
 					{
+						path: 'preklade-tovora',
 						name: 'Preklade tovora',
 						img: './assets/img/icons/forklift.svg'
 					}
@@ -65,7 +71,8 @@ const lang1 = {
 		HomePodrocje: {
 			title: 'Področje delovanja',
 			desc: 'Storitve kontejnerskih in izrednih prevozov vam nudimo na področju celotne Evrope.',
-			desc2: 'Prevoze s ponjavo oziroma uvoz paletnega blaga pa vam nudimo iz Češke, Poljske, Slovaške in Italije v Slovenijo. Omogočamo vam prevoz do 25 euro palet, oziroma prevoz do 23t nosilnosti.'
+			desc2: 'Prevoze s ponjavo oziroma uvoz paletnega blaga pa vam nudimo iz Češke, Poljske, Slovaške in Italije v Slovenijo.',
+			desc3: 'Omogočamo vam prevoz do 25 euro palet, oziroma prevoz do 23t nosilnosti.'
 		},
 		HomeZakaj: {
 			title: 'Zakaj izbrati nas?',
@@ -75,6 +82,9 @@ const lang1 = {
 			title: 'Vstopite v stik z nami',
 			phone: '+386 31 590 606',
 			email: 'rok@magnum-logistika.si',
+		},
+		IzredniPrevozi: {
+			title: 'Izredni Prevozi'
 		},
 		Footer: {
 

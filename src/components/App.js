@@ -8,6 +8,7 @@ import Kontakt from './Kontakt';
 import { lang1 } from './lang/sl';
 import { lang2 } from './lang/en';
 import { lang3 } from './lang/de';
+import IzredniPrevozi from './IzredniPrevozi';
 
 var lang;
 
@@ -60,6 +61,8 @@ class App extends Component {
           <Route path='/o-nas' render={(props) => <ONas {...props} currentLang={lang} changeLanguage={this.changeLanguage}/>}/>
           <Route path='/servis' render={(props) => <Servis {...props} currentLang={lang} changeLanguage={this.changeLanguage}/>}/>
           <Route path='/kontakt' render={(props) => <Kontakt {...props} currentLang={lang} changeLanguage={this.changeLanguage}/>}/>
+
+					<Route path='/ponudba/izredni-prevozi' render={(props) => <IzredniPrevozi {...props} currentLang={lang} changeLanguage={this.changeLanguage}/>}/>
         </Switch>
       </div>
     );
