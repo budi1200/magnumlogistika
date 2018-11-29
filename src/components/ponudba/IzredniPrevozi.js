@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import Header from './Header';
+import Header from '../Header';
 
-import HeaderImage from './HeaderImage';
+import HeaderImage from '../HeaderImage';
 
-import Footer from './Footer';
+import Footer from '../Footer';
 
 export default class IzredniPrevozi extends Component{
 	render(){
@@ -15,7 +15,7 @@ export default class IzredniPrevozi extends Component{
 			<div>
 				<Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage} active="storitve"/>
 
-        <HeaderImage bgImage='/assets/img/kontakt_header_compressed.jpg' text={lang.IzredniPrevozi.title} video={true}/>
+        <HeaderImage bgVideo='/assets/vid/ML3.mp4' text={lang.IzredniPrevozi.title} video={true}/>
 				
 				<div className="section-wrapper">
 					<span>Posebej previdno in natančno preučimo in načrtujemo pretovorne manipulacije ter prevozno pot. Uredimo vse potrebno, da tovor na prevozni poti ustrezno zaščitimo in zavarujemo. Skrbno organiziramo potek celotne logistične storitve.</span>

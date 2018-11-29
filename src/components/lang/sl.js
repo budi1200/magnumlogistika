@@ -86,6 +86,21 @@ const lang1 = {
 		IzredniPrevozi: {
 			title: 'Izredni Prevozi'
 		},
+		KontejnerskiPrevozi: {
+			title: 'Kontejnerski Prevozi'
+		},
+		LadijskiPrevozi: {
+			title: 'Ladijski Prevozi'
+		},
+		ZelezniskiTransport: {
+			title: 'Zelezniski Transport'
+		},
+		LetalskePosiljke: {
+			title: 'Letalske Posiljke'
+		},
+		PrekladeTovora: {
+			title: 'Preklade Tovora'
+		},
 		Footer: {
 
 		}
