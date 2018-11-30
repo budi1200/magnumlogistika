@@ -80,7 +80,8 @@ a{
     -webkit-transform: translate3d(0,0,0) scaleX(0);
     transform: translate3d(0,0,0) scaleX(0);
     transition: all .2s ease 0s;
-    background-color: black;
+		/*ackground-color: black;*/
+		background-image: linear-gradient(to right bottom, #d93025, #c02a20, #a8241b, #911f17, #7a1912);
 }
 
 .header-links li:hover{
@@ -126,6 +127,10 @@ a{
 	text-align: center;
 	background-color: rgba(41, 58, 62, 0.39);
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.body-list-wrapper h1{
+	font-size: 1.8rem;
 }
 
 .body-list-wrapper-inner{
@@ -371,7 +376,7 @@ a{
 	position: relative;
 	width: fit-content;
 	align-self: center;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .section-title:before{
@@ -385,7 +390,7 @@ a{
 	-webkit-transform: translate3d(0,0,0) scaleX(0);
 	transform: translate3d(0,0,0) scaleX(1);
 	transition: all .2s ease 0s;
-	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(217,48,37,1) 50%, rgba(0,0,0,1) 100%);
+	background-image: linear-gradient(to right bottom, #d93025, #c02a20, #a8241b, #911f17, #7a1912);
 }
 
 .ponudba-list{
@@ -444,15 +449,12 @@ a{
 
 .homezakaj-inner-wrapper{
 	display: flex;
-	justify-content: flex-end;
-	margin-top: 4px;
-	align-items: center;
 }
 
 .homezakaj-inner-wrapper ul{
 	margin: 0 auto;
-	font-size: 1.2rem;
-	list-style-type: none;
+	font-size: 1.1rem;
+	list-style-type: circle;
 }
 
 .homezakaj-inner-wrapper li{
@@ -461,8 +463,7 @@ a{
 
 .homezakaj-inner-wrapper img{
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+	border-radius: 10px;
 }
 
 .homestik-list{
@@ -512,6 +513,7 @@ a{
 }
 
 .footer-big-section li{
+	padding-top: 8px;
 	padding-bottom: 8px;
 }
 
