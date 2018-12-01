@@ -9,10 +9,10 @@ export default class HomeZakaj extends Component{
 		const lang = this.props.currentLang;
 
 		return(
-			<div className='section-wrapper'>
+			<div style={{paddingRight: 0}} className='section-wrapper'>
 				<StyleRoot style={{display: "flex", flexDirection: "column"}}>
 					
-					<h1 style={animStyles.fadeInUp} className='section-title'>{lang.HomeZakaj.title}</h1>
+					<h1 style={{...animStyles.fadeInUp, marginRight: 20}} className='section-title'>{lang.HomeZakaj.title}</h1>
 					<div className='homezakaj-inner-wrapper'>
 						<ul style={animStyles.fadeIn}>
 							{lang.HomeZakaj.razlogi.map((razlog, index) => {
