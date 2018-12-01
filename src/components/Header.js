@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import LangMenu from './LangMenu';
 
 class Header extends Component{
@@ -22,6 +23,7 @@ class Header extends Component{
                 <div className="header-links">
                     <ul>
                         <li><Link to='/'>{lang.header.home}</Link></li>
+												<li><HashLink to='/#ponudba' smooth>Ponudba</HashLink></li>
                         <li className={this.props.active === 'o-nas' ? "active" : null }><Link style={this.props.active === 'o-nas' ? active_link : null } to='/o-nas'>{lang.header.about}</Link></li>
                         {/*<li className={this.props.active === 'servis' ? "active" : null }><Link style={this.props.active === 'servis' ? active_link : null } to='/servis'>{lang.header.service}</Link></li>*/}
                         <li className={this.props.active === 'kontakt' ? "active" : null }><Link style={this.props.active === 'kontakt' ? active_link : null } to='/kontakt'>{lang.header.contact}</Link></li>

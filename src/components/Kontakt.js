@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import HeaderImage from './HeaderImage';
+import Footer from './Footer';
 
-//TODO: Emails in <a> tag
 class Kontakt extends Component{
     render(){
 
@@ -100,6 +100,7 @@ class Kontakt extends Component{
 
                 </div>
 
+								<Footer/>
             </div>
         );
     }

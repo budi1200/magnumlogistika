@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+
+import { StyleRoot } from 'radium';
+import { animStyles } from './styles';
 
 class TransportTypes extends Component{
 
@@ -40,32 +42,13 @@ class TransportTypes extends Component{
             backgroundPositionY: 'bottom',
         }
 
-        const transparent_bg = {
-            backgroundColor: 'transparent',
-        }
-
-        const frontPageContent = [
-            {
-                'id': 0,
-                'name': lang.content.ladijski_name,
-                'icon': './assets/img/cruise.svg',
-                'bgImage': './assets/img/ship_compressed.jpg',
-            },
-            {
-                'id': 1,
-                'name': lang.content.cestni_name,
-                'icon': './assets/img/truck2.png',
-                'bgImage': './assets/img/truck_compressed.jpg',
-            }
-        ]
-
         return(
             <div style={bg_img}>
                 <div className="body-list-wrapper">
-                    <div>
-                        <h1>{lang.content.main_title}</h1>
-                        <h4>{lang.content.main_subtitle}</h4>
-                    </div>
+                    <StyleRoot>
+                        <h1 style={animStyles.fadeIn}>{lang.content.main_title}</h1>
+                        <h4 style={animStyles.fadeIn}>{lang.content.main_subtitle}</h4>
+                    </StyleRoot>
                 </div>
             </div>
         );

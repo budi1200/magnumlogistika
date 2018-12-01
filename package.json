@@ -5,6 +5,7 @@
   "dependencies": {
     "antd": "^3.10.7",
     "moment": "^2.22.2",
+    "radium": "^0.25.0",
     "react": "^16.6.3",
     "react-animations": "^1.0.0",
     "react-dom": "^16.6.3",

@@ -19,6 +19,7 @@ export default class IzredniPrevozi extends Component{
 				
 				<div className="section-wrapper">
 					<span>Posebej previdno in natančno preučimo in načrtujemo pretovorne manipulacije ter prevozno pot. Uredimo vse potrebno, da tovor na prevozni poti ustrezno zaščitimo in zavarujemo. Skrbno organiziramo potek celotne logistične storitve.</span>
+					<img src='/assets/img/izredni.jpg'/>
 				</div>
 
 				<Footer/>

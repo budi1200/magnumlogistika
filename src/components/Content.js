@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import TransportTypes from './TransportTypes';
-import { Link } from 'react-router-dom';
 import HomePonudba from './HomePonudba';
 import HomePodrocje from './HomePodrocje';
 import HomeZakaj from './HomeZakaj';
@@ -23,10 +22,12 @@ class Content extends Component{
             <div>
                 <Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage}/>
                 <TransportTypes ref="RefTransportTypes" img={this.state.transport_img} currentLang={lang}/>
-                <HomePonudba currentLang={this.props.currentLang}/>
-								<HomePodrocje currentLang={this.props.currentLang}/>
-								<HomeZakaj currentLang={this.props.currentLang}/>
-								<HomeStik currentLang={this.props.currentLang}/>
+								<div className='body-wrapper'>
+                	<HomePonudba currentLang={this.props.currentLang}/>
+									<HomePodrocje currentLang={this.props.currentLang}/>
+									<HomeZakaj currentLang={this.props.currentLang}/>
+									<HomeStik currentLang={this.props.currentLang}/>
+								</div>
 								<Footer currentLang={this.props.currentLang}/>
             </div>
         );
