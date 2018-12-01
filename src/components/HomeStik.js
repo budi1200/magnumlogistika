@@ -9,7 +9,7 @@ export default class HomeStik extends Component{
 		const lang = this.props.currentLang
 
 		return(
-			<div className='section-wrapper'>
+			<div style={{paddingLeft: 0, paddingRight: 0}} className='section-wrapper'>
 				<StyleRoot style={{display: "flex", flexDirection: "column"}}>
 
 					<h1 style={animStyles.fadeInUp} className='section-title'>{lang.HomeStik.title}</h1>
