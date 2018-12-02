@@ -6,7 +6,7 @@ import { animStyles } from './styles';
 class TransportTypes extends Component{
 
     getHeight = () =>{
-        return window.innerHeight - 94;
+        return window.innerHeight - 72;
     }
 
     state = {

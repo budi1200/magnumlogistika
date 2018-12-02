@@ -19,10 +19,11 @@ class Header extends Component{
 
         return(
             <div id="header-wrapper" className="header-wrapper">
-                <Link to="/"><div style={logo_img} className="logo"></div></Link>
+							<div className='header-wrapper-inner'>
+							<HashLink to='/#top' smooth><div style={logo_img} className="logo"></div></HashLink>
                 <div className="header-links">
                     <ul>
-                        <li><Link to='/'>{lang.header.home}</Link></li>
+                        <li><HashLink to='/#top' smooth>{lang.header.home}</HashLink></li>
 												<li><HashLink to='/#ponudba' smooth>Ponudba</HashLink></li>
                         <li className={this.props.active === 'o-nas' ? "active" : null }><Link style={this.props.active === 'o-nas' ? active_link : null } to='/o-nas'>{lang.header.about}</Link></li>
                         {/*<li className={this.props.active === 'servis' ? "active" : null }><Link style={this.props.active === 'servis' ? active_link : null } to='/servis'>{lang.header.service}</Link></li>*/}
@@ -30,6 +31,7 @@ class Header extends Component{
                         {/*<li className="lang-li"><LangMenu changeLanguage={this.props.changeLanguage} currentLangCode={this.props.currentLang.header.lang}/></li>*/}
                     </ul>
                 </div>
+							</div>
             </div>
         );
     }

@@ -20,6 +20,7 @@ class Content extends Component{
 
         return(
             <div>
+								<div id="top" style={{}}></div>
                 <Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage}/>
                 <TransportTypes ref="RefTransportTypes" img={this.state.transport_img} currentLang={lang}/>
 								<div className='body-wrapper'>
