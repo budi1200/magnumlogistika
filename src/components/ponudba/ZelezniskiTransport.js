@@ -7,6 +7,11 @@ import HeaderImage from '../HeaderImage';
 import Footer from '../Footer';
 
 export default class ZelezniskiTransport extends Component{
+
+	componentWillMount(){
+		window.scrollTo(0, 0);
+	}
+
 	render(){
 
 		const lang = this.props.currentLang;

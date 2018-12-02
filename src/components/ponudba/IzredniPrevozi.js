@@ -18,6 +18,10 @@ export default class IzredniPrevozi extends Component{
 		}
 	}
 
+	componentWillMount(){
+		window.scrollTo(0, 0);
+	}
+
 	render(){
 
 		const lang = this.props.currentLang;

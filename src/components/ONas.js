@@ -7,29 +7,34 @@ import HeaderImage from './HeaderImage';
 import Footer from './Footer';
 
 class ONas extends Component{
-    render(){
 
-        const lang = this.props.currentLang;
+	componentWillMount(){
+		window.scrollTo(0, 0);
+	}
 
-        return(
-            <div>
-                <Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage} active="o-nas"/>
-                
-								<HeaderImage bgImage="./assets/img/onas_header.jpg" text={lang.header.about}/>
-                
-								<StyleRoot>
-									<div style={animStyles.fadeIn} className="onas-wrapper center">
-                	    <h3>{lang.onas.title1}</h3>
-                	    <p>{lang.onas.desc1}</p>
-                	    <h3>{lang.onas.title2}</h3>
-                	    <p>{lang.onas.desc2}</p>
-                	</div>
-								</StyleRoot>
+  render(){
 
-								<Footer/>
-            </div>
-        );
-    }
+      const lang = this.props.currentLang;
+
+      return(
+          <div>
+              <Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage} active="o-nas"/>
+              
+							<HeaderImage bgImage="./assets/img/onas_header.jpg" text={lang.header.about}/>
+              
+							<StyleRoot>
+								<div style={animStyles.fadeIn} className="onas-wrapper center">
+              	    <h3>{lang.onas.title1}</h3>
+              	    <p>{lang.onas.desc1}</p>
+              	    <h3>{lang.onas.title2}</h3>
+              	    <p>{lang.onas.desc2}</p>
+              	</div>
+							</StyleRoot>
+
+							<Footer/>
+          </div>
+      );
+  }
 }
 
 export default ONas;
