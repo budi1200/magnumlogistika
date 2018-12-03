@@ -9,7 +9,7 @@ export default class Footer extends Component{
 			<div className="footer-section-wrapper">
 				<div className="footer-big-wrapper">
 					<div className="footer-big-img-wrapper">
-						<img width="300" src="/assets/img/magnum_logistika_logo.png"/>
+						<img width="300" src="/assets/img/magnum_logistika_logo.png" alt="Logo"/>
 					</div>
 					<div className="footer-big-section">
 						<h3>Magnum Logistika</h3>

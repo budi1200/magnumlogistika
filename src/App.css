@@ -46,7 +46,8 @@ a{
 }
 
 .header-links{
-    font-weight: bold;
+		font-weight: bold;
+		transition: all .2s;
 }
 
 .header-links ul{
@@ -513,6 +514,7 @@ a{
 
 .homestik-list a{
 	display: flex;
+	align-items: center;
 	color: rgb(217, 48, 37);
 	text-decoration: underline;
 }
@@ -608,4 +610,71 @@ a{
 
 .footer-copyright-wrapper a{
 	color: rgb(217, 48, 37);
+}
+
+
+@media only screen and (max-width: 695px) {
+	.homezakaj-inner-wrapper{
+		flex-direction: column;
+	}
+
+	.homezakaj-inner-wrapper img{
+		border-radius: 0;
+		margin-top: 10px;
+	}
+
+	.homestik-list{
+		flex-direction: column;
+	}
+
+	#zakaj{
+		padding-left: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.closed{
+		max-height: 0px;
+	}
+
+	.open{
+		max-height: 160px;
+	}
+
+	.header-wrapper-inner{
+		flex-wrap: wrap;
+	}
+
+	.header-links ul{
+		flex-direction: column;
+	}
+
+	.header-links{
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.podrocje img{
+		height: 200px;
+	}
+
+	.homezakaj-inner-wrapper img{
+		height: 200px !important;
+	}
+
+	.homestik-list{
+		font-size: 1.5rem;
+	}
+
+	.homestik-list img{
+		height: 38px;
+	}
+
+	.footer-big-wrapper{
+		flex-direction: column;
+	}
+
+	.footer-big-img-wrapper{
+		padding-left: 40px;
+	}
 }

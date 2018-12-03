@@ -9,7 +9,7 @@ export default class HomeZakaj extends Component{
 		const lang = this.props.currentLang;
 
 		return(
-			<div style={{paddingRight: 0}} className='section-wrapper'>
+			<div id='zakaj' style={{paddingRight: 0}} className='section-wrapper'>
 				<StyleRoot style={{display: "flex", flexDirection: "column"}}>
 					
 					<h1 style={{...animStyles.fadeInUp, marginRight: 20}} className='section-title'>{lang.HomeZakaj.title}</h1>
@@ -19,7 +19,7 @@ export default class HomeZakaj extends Component{
 								return(<li key={index}>{razlog}</li>);
 							})}
 						</ul>
-						<img style={animStyles.fadeIn} style={{height: 300}} src="./assets/img/why.jpg"/>
+						<img style={{...animStyles.fadeIn, height: 300}} src="./assets/img/why.jpg" alt="Zakaj"/>
 					</div>
 
 				</StyleRoot>
