@@ -14,7 +14,7 @@ export default class Footer extends Component{
 					<div className="footer-big-section">
 						<h3>Magnum Logistika</h3>
 						<ul className="footer-big-list">
-							<li><HashLink to="/#header-wrapper" smooth>Domov</HashLink></li>
+							<li><HashLink to="/#top" smooth>Domov</HashLink></li>
 							<li><Link to="/o-nas">O Nas</Link></li>
 							<li><Link to="/kontakt">Kontakt</Link></li>
 						</ul>
