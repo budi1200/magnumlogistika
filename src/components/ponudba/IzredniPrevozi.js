@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-
-import Header from '../Header';
-
-import HeaderImage from '../HeaderImage';
-
-import Footer from '../Footer';
-
+import { StyleRoot } from 'radium';
 import SlideShow from 'react-image-show';
+
+import { animStyles } from '../styles';
+import Header from '../Header';
+import HeaderImage from '../HeaderImage';
+import Footer from '../Footer';
 
 export default class IzredniPrevozi extends Component{
 
@@ -14,7 +13,10 @@ export default class IzredniPrevozi extends Component{
 		super(props);
 
 		this.state = {
-			slideshow: ['/assets/img/izredni.jpg', '/assets/img/izredni2.jpg']
+			slideshow: [
+				'/assets/img/izredni/izredni.jpg',
+				'/assets/img/izredni/izredni2.jpg'
+			]
 		}
 	}
 
@@ -32,10 +34,12 @@ export default class IzredniPrevozi extends Component{
 
         <HeaderImage bgVideo='/assets/vid/ML3.mp4' text={lang.IzredniPrevozi.title} video={true}/>
 				
-				<div className="section-wrapper izredni">
-					<span>Posebej previdno in natančno preučimo in načrtujemo pretovorne manipulacije ter prevozno pot. Uredimo vse potrebno, da tovor na prevozni poti ustrezno zaščitimo in zavarujemo. Skrbno organiziramo potek celotne logistične storitve.</span>
-					<SlideShow images={this.state.slideshow} width="920px" imagesWidth="800px" imagesHeight="450px" imagesHeightMobile="56vw" infinite fixedImagesHeight />
-				</div>
+				<StyleRoot>
+					<div style={animStyles.fadeIn} className="section-wrapper izredni">
+						<span>Posebej previdno in natančno preučimo in načrtujemo pretovorne manipulacije ter prevozno pot. Uredimo vse potrebno, da tovor na prevozni poti ustrezno zaščitimo in zavarujemo. Skrbno organiziramo potek celotne logistične storitve.</span>
+						<SlideShow style={animStyles.fadeIn} images={this.state.slideshow} width="920px" imagesWidth="800px" imagesHeight="450px" imagesHeightMobile="56vw" infinite fixedImagesHeight />
+					</div>
+				</StyleRoot>
 
 				<Footer/>
 			</div>
