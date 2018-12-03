@@ -45,6 +45,10 @@ a{
     margin-right: 5px;
 }
 
+.hamburger{
+	display: none;
+}
+
 .header-links{
 		font-weight: bold;
 		transition: all .2s;
@@ -633,6 +637,10 @@ a{
 }
 
 @media only screen and (max-width: 450px) {
+	.hamburger{
+		display: inline-block;
+	}
+
 	.closed{
 		max-height: 0px;
 	}
