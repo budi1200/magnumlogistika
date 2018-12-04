@@ -618,25 +618,6 @@ a{
 
 
 @media only screen and (max-width: 695px) {
-	.homezakaj-inner-wrapper{
-		flex-direction: column;
-	}
-
-	.homezakaj-inner-wrapper img{
-		border-radius: 0;
-		margin-top: 10px;
-	}
-
-	.homestik-list{
-		flex-direction: column;
-	}
-
-	#zakaj{
-		padding-left: 0 !important;
-	}
-}
-
-@media only screen and (max-width: 450px) {
 	.hamburger{
 		display: inline-block;
 	}
@@ -661,6 +642,26 @@ a{
 		width: 100%;
 		overflow: hidden;
 	}
+	
+	.homezakaj-inner-wrapper{
+		flex-direction: column;
+	}
+
+	.homezakaj-inner-wrapper img{
+		border-radius: 0;
+		margin-top: 10px;
+	}
+
+	.homestik-list{
+		flex-direction: column;
+	}
+
+	#zakaj{
+		padding-left: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 450px) {
 
 	.podrocje img{
 		height: 200px;
