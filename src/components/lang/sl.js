@@ -7,7 +7,7 @@ const lang1 = {
         lang: 'sl'
     },
     content: {
-				main_title: 'Kontejnerski prevozi, izredni prevozi, organizirani ladijski prevozi, železniški transport',
+				main_title: 'Kontejnerski prevozi, izredni prevozi, železniški transport, organizirani ladijski prevozi',
 				main_subtitle: 'description'
     },
     onas: {

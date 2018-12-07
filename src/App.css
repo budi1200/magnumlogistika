@@ -128,11 +128,12 @@ a{
 	text-shadow: 1px 1px 1px #242f2f;
 	text-align: center;
 	background-color: rgba(41, 58, 62, 0.39);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .body-list-wrapper h1{
 	font-size: 1.8rem;
+	max-width: 960px;
 }
 
 .body-list-wrapper-inner{

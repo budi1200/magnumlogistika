@@ -18,7 +18,7 @@ export default class HomeStik extends Component{
 						<span style={animStyles.fadeIn}><a href={"mailto:" + lang.HomeStik.email}><img src='./assets/img/icons/mail.svg' alt="Email"/>{lang.HomeStik.email}	</a></span>
 					</div>
 
-					<iframe title="Map" style={{...animStyles.fadeIn, border: 0}} height="450" src="https://www.google.com/maps/embed/v1/place?	key=AIzaSyC9tV5ZceiJBmFONrgQp031HuIsypQm3RA&q=Obrtniška+ulica+10,+3240+Šmarje+pri+Jelšah"></iframe>
+					<iframe title="Map" style={{...animStyles.fadeIn, border: 0, marginTop: 10, marginBottom: 10}} height="450" src="https://www.google.com/maps/embed/v1/place?	key=AIzaSyC9tV5ZceiJBmFONrgQp031HuIsypQm3RA&q=Obrtniška+ulica+10,+3240+Šmarje+pri+Jelšah"></iframe>
 
 				</StyleRoot>
 			</div>
