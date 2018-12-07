@@ -221,6 +221,7 @@ a{
 .body-header-image-wrapper video{
 	max-width: 960px;
 	z-index: -1;
+	overflow: hidden;
 }
 
 .body-header-image{
@@ -603,7 +604,7 @@ a{
 }
 
 
-@media only screen and (max-width: 695px) {
+@media only screen and (max-width: 700px) {
 	.hamburger{
 		display: inline-block;
 	}
@@ -644,6 +645,14 @@ a{
 
 	#zakaj{
 		padding-left: 0 !important;
+	}
+
+	.footer-big-wrapper{
+		flex-direction: column;
+	}
+
+	.footer-big-img-wrapper{
+		padding-left: 40px;
 	}
 }
 

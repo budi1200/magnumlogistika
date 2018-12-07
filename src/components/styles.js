@@ -4,7 +4,7 @@ import Radium from 'radium';
 export const animStyles = {
 
 	fadeIn: {
-			animation: 'x 1s',
+			animation: 'x 1.4s',
 			animationName: Radium.keyframes(fadeIn, 'fadeIn')
 	},
 
