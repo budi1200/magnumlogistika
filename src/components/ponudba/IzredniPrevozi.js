@@ -41,7 +41,7 @@ export default class IzredniPrevozi extends Component{
 					</div>
 				</StyleRoot>
 
-				<Footer/>
+				<Footer currentLang={this.props.currentLang}/>
 			</div>
 		);
 	}

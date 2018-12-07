@@ -439,6 +439,7 @@ a{
 
 .ponudba-list li:hover{
 	transform: scale(1.05);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .ponudba-list img{
@@ -450,6 +451,15 @@ a{
 	height: 500px;
 	object-fit: fill;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.scaleOnHover{
+	transition: all .2s;
+}
+
+.scaleOnHover:hover{
+	transform: scale(1.015);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .podrocje p{

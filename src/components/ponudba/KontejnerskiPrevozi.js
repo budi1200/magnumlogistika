@@ -28,7 +28,7 @@ export default class KontejnerskiPrevozi extends Component{
 					</p>
 				</div>
 
-				<Footer/>
+				<Footer currentLang={this.props.currentLang}/>
 			</div>
 		);
 	}

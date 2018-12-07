@@ -47,7 +47,7 @@ class TransportTypes extends Component{
                 <div className="body-list-wrapper">
                     <StyleRoot>
                         <h1 style={animStyles.fadeIn}>{lang.content.main_title}</h1>
-                        <h4 style={animStyles.fadeIn}>{lang.content.main_subtitle}</h4>
+                        {/*<h4 style={animStyles.fadeIn}>{lang.content.main_subtitle}</h4>*/}
                     </StyleRoot>
                 </div>
             </div>

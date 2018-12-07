@@ -26,7 +26,7 @@ export default class LetalskePosiljke extends Component{
 					<p>{lang.LetalskePosiljke.content}</p>
 				</div>
 
-				<Footer/>
+				<Footer currentLang={this.props.currentLang}/>
 			</div>
 		);
 	}

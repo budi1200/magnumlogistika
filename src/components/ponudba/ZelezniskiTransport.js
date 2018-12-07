@@ -26,7 +26,7 @@ export default class ZelezniskiTransport extends Component{
 					<p>{lang.ZelezniskiTransport.content}</p>
 				</div>
 
-				<Footer/>
+				<Footer currentLang={this.props.currentLang}/>
 			</div>
 		);
 	}

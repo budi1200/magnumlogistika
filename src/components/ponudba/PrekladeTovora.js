@@ -26,7 +26,7 @@ export default class PrekladeTovora extends Component{
 					<p>{lang.PrekladeTovora.content}</p>
 				</div>
 
-				<Footer/>
+				<Footer currentLang={this.props.currentLang}/>
 			</div>
 		);
 	}

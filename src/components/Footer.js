@@ -5,6 +5,9 @@ import { HashLink } from 'react-router-hash-link';
 
 export default class Footer extends Component{
 	render(){
+
+		const lang = this.props.currentLang;
+		
 		return(
 			<div className="footer-section-wrapper">
 				<div className="footer-big-wrapper">
@@ -14,13 +17,13 @@ export default class Footer extends Component{
 					<div className="footer-big-section">
 						<h3>Magnum Logistika</h3>
 						<ul className="footer-big-list">
-							<li><HashLink to="/#top" smooth>Domov</HashLink></li>
-							<li><Link to="/o-nas">O Nas</Link></li>
-							<li><Link to="/kontakt">Kontakt</Link></li>
+							<li><HashLink to="/#top" smooth>{lang.header.home}</HashLink></li>
+							<li><Link to="/o-nas">{lang.header.about}</Link></li>
+							<li><Link to="/kontakt">{lang.header.contact}</Link></li>
 						</ul>
 					</div>
 					<div className="footer-big-section">
-						<h3>Kontakt</h3>
+						<h3>{lang.header.contact}</h3>
 						<ul>
 							<li style={{fontWeight: 'bold'}}>Magnum logistika d.o.o.</li>
 							<li>Obrtniška ul. 10,  3240 Šmarje pri Jelšah</li>

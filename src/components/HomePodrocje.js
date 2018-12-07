@@ -12,7 +12,7 @@ export default class HomePodrocje extends Component{
 			<div id='podrocje' style={{paddingLeft: 0, paddingRight: 0}} className='section-wrapper podrocje'>
 				<StyleRoot style={{display: "flex", flexDirection: "column"}}>
 					<h1 style={animStyles.fadeInUp} className='section-title padding20'>{lang.HomePodrocje.title}</h1>
-					<img style={animStyles.fadeIn} src='./assets/img/podrocje.png' alt="Podrocje"/>
+					<img style={animStyles.fadeIn} src='./assets/img/podrocje.png' alt="Podrocje" class="scaleOnHover"/>
 					<p style={animStyles.fadeIn} className='padding20'>
 						{lang.HomePodrocje.desc}
 					</p>
