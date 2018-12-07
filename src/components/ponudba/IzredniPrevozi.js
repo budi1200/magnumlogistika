@@ -36,7 +36,7 @@ export default class IzredniPrevozi extends Component{
 				
 				<StyleRoot>
 					<div style={animStyles.fadeIn} className="section-wrapper izredni">
-						<span>Posebej previdno in natančno preučimo in načrtujemo pretovorne manipulacije ter prevozno pot. Uredimo vse potrebno, da tovor na prevozni poti ustrezno zaščitimo in zavarujemo. Skrbno organiziramo potek celotne logistične storitve.</span>
+						<p>{lang.IzredniPrevozi.content}</p>
 						<SlideShow style={animStyles.fadeIn} images={this.state.slideshow} width="920px" imagesWidth="800px" imagesHeight="450px" imagesHeightMobile="56vw" infinite fixedImagesHeight />
 					</div>
 				</StyleRoot>

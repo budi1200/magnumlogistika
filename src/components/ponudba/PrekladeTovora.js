@@ -23,7 +23,7 @@ export default class PrekladeTovora extends Component{
         <HeaderImage bgImage='./assets/img/onas_header.jpg' text={lang.PrekladeTovora.title} video={false}/>
 				
 				<div className="section-wrapper">
-					<span></span>
+					<p>{lang.PrekladeTovora.content}</p>
 				</div>
 
 				<Footer/>

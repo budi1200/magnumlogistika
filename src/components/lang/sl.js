@@ -84,22 +84,28 @@ const lang1 = {
 			email: 'rok@magnum-logistika.si',
 		},
 		IzredniPrevozi: {
-			title: 'Izredni Prevozi'
+			title: 'Izredni Prevozi',
+			content: 'Posebej previdno in natančno preučimo in načrtujemo pretovorne manipulacije ter prevozno pot. Uredimo vse potrebno, da tovor na prevozni poti ustrezno zaščitimo in zavarujemo. Skrbno organiziramo potek celotne logistične storitve.'
 		},
 		KontejnerskiPrevozi: {
-			title: 'Kontejnerski Prevozi'
+			title: 'Kontejnerski Prevozi',
+			content: 'Nudimo vse vrste kontejnerskih prevozov po celi Evropi. Upravljamo z sodobnim voznim parkom kar nam zagotavlja zanesljive ter točne dostave, ki jih zagotavljamo našim strankam. Vse prevoze vnaprej skrbno načrtujemo ter izvedemo korektno in v skladu z dogovorom.'
 		},
 		LadijskiPrevozi: {
-			title: 'Ladijski Prevozi'
+			title: 'Ladijski Prevozi',
+			content: 'Organiziramo kontejnerske prevoze, zbirne pošiljke in konvencionalne prevoze.'
 		},
 		ZelezniskiTransport: {
-			title: 'Zelezniski Transport'
+			title: 'Železniški Transport',
+			content: 'Organiziramo železniške prevoze kontejnerjev   ter ostalega tovora po vsej Evropi.'
 		},
 		LetalskePosiljke: {
-			title: 'Letalske Posiljke'
+			title: 'Letalske Pošiljke',
+			content: 'Organiziramo prevoze v vsa letališča po svetu. Po potrebi uredimo carinjenje, zavarovanje ter ostalo pripadajočo dokumentacijo.'
 		},
 		PrekladeTovora: {
-			title: 'Preklade Tovora'
+			title: 'Preklade Tovora',
+			content: 'Nudimo vam tudi preklade ter skladiščenje tovora na večih lokacijah po celi Sloveniji.'
 		},
 		Footer: {
 

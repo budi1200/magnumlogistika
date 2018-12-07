@@ -23,7 +23,9 @@ export default class KontejnerskiPrevozi extends Component{
         <HeaderImage bgImage='./assets/img/onas_header.jpg' text={lang.KontejnerskiPrevozi.title} video={false}/>
 				
 				<div className="section-wrapper">
-					<span></span>
+					<p>
+						{lang.KontejnerskiPrevozi.content}
+					</p>
 				</div>
 
 				<Footer/>

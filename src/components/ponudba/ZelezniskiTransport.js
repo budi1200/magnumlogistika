@@ -20,10 +20,10 @@ export default class ZelezniskiTransport extends Component{
 			<div>
 				<Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage} active="storitve"/>
 
-        <HeaderImage bgImage='./assets/img/onas_header.jpg' text={lang.ZelezniskiTransport.title} video={false}/>
+        <HeaderImage bgImage='/assets/img/train.jpg' text={lang.ZelezniskiTransport.title} video={false}/>
 				
 				<div className="section-wrapper">
-					<span></span>
+					<p>{lang.ZelezniskiTransport.content}</p>
 				</div>
 
 				<Footer/>

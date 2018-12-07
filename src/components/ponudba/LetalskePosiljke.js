@@ -20,10 +20,10 @@ export default class LetalskePosiljke extends Component{
 			<div>
 				<Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage} active="storitve"/>
 
-        <HeaderImage bgImage='./assets/img/onas_header.jpg' text={lang.LetalskePosiljke.title} video={false}/>
+        <HeaderImage bgImage='/assets/img/plane.jpg' text={lang.LetalskePosiljke.title} video={false}/>
 				
 				<div className="section-wrapper">
-					<span></span>
+					<p>{lang.LetalskePosiljke.content}</p>
 				</div>
 
 				<Footer/>
