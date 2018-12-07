@@ -45,7 +45,7 @@ class Kontakt extends Component{
             	    <div>
             	        <h3>{lang.kontakt.racunovodstvo_title}</h3>
             	        <ul className="kontakt-main_ul">
-            	            <li className="kontakt-main_li">Rihatrič Pika</li>
+            	            <li className="kontakt-main_li">Pika Rihtarič</li>
             	            <ul>
             	                <li>{lang.kontakt.telefon}: <a href="tel:+38670833752">+386 70 833 752</a></li>
             	                <li>{lang.kontakt.mail}: <a href="mailto:pika@magnum-logistika.si">pika@magnum-logistika.si</a></li>
