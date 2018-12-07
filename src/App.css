@@ -492,6 +492,9 @@ a{
 	display: flex;
 	align-items: center;
 	color: rgb(217, 48, 37);
+}
+
+.homestik-list a:hover{
 	text-decoration: underline;
 }
 
