@@ -20,7 +20,7 @@ export default class PrekladeTovora extends Component{
 			<div>
 				<Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage} active="storitve"/>
 
-        <HeaderImage bgImage='./assets/img/onas_header.jpg' text={lang.PrekladeTovora.title} video={false}/>
+        <HeaderImage bgImage='/assets/img/preklade.jpg' text={lang.PrekladeTovora.title} video={false}/>
 				
 				<div className="section-wrapper">
 					<p>{lang.PrekladeTovora.content}</p>

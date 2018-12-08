@@ -19,7 +19,7 @@ export default class HomeZakaj extends Component{
 								return(<li key={index}>{razlog}</li>);
 							})}
 						</ul>
-						<img style={{...animStyles.fadeIn, height: 300}} src="./assets/img/why.jpg" alt="Zakaj" class="scaleOnHover"/>
+						<img style={{...animStyles.fadeIn, height: 300}} src="./assets/img/why.jpg" alt="Zakaj" className="scaleOnHover"/>
 					</div>
 
 				</StyleRoot>
