@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import {Switch, Route} from 'react-router-dom';
+import ReactGA from 'react-ga';
+
 import '../App.css';
 import Content from './Content';
 import ONas from './ONas';
 import Kontakt from './Kontakt';
+
 import { lang1 } from './lang/sl';
 import { lang2 } from './lang/en';
 import { lang3 } from './lang/de';
@@ -16,6 +19,10 @@ import LetalskePosiljke from './ponudba/LetalskePosiljke';
 import PrekladeTovora from './ponudba/PrekladeTovora';
 
 var lang;
+
+if (process.env.NODE_ENV === 'production') {
+	ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_ID)
+}
 
 class App extends Component {
 
@@ -51,17 +58,28 @@ class App extends Component {
         break;
     }
     //console.log(lang);
-  }
+	}
+	
+	handlePageChange = () => {
+		//console.log(window.location.pathname);
+		ReactGA.pageview(window.location.pathname);
+	}
+
 
   componentWillMount() {
     this.changeLanguage(this.currentLangCode);
-  }
+	}
+	
+	componentDidMount(){
+		ReactGA.pageview('/');
+	}
+
 
   render() {
     return (
       <div className="App">
         {/* Routes */}
-        <Switch>
+        <Switch onChange={this.yourHandler()} basename={'/'}>
           <Route exact path='/' render={(props) => <Content {...props} currentLang={lang} changeLanguage={this.changeLanguage}/>}/>
           <Route path='/o-nas' render={(props) => <ONas {...props} currentLang={lang} changeLanguage={this.changeLanguage}/>}/>
           <Route path='/kontakt' render={(props) => <Kontakt {...props} currentLang={lang} changeLanguage={this.changeLanguage}/>}/>
