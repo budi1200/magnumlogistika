@@ -79,7 +79,7 @@ class App extends Component {
     return (
       <div className="App">
         {/* Routes */}
-        <Switch onChange={this.yourHandler()} basename={'/'}>
+        <Switch onChange={this.handlePageChange()} basename={'/'}>
           <Route exact path='/' render={(props) => <Content {...props} currentLang={lang} changeLanguage={this.changeLanguage}/>}/>
           <Route path='/o-nas' render={(props) => <ONas {...props} currentLang={lang} changeLanguage={this.changeLanguage}/>}/>
           <Route path='/kontakt' render={(props) => <Kontakt {...props} currentLang={lang} changeLanguage={this.changeLanguage}/>}/>
