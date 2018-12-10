@@ -23,12 +23,12 @@ class Content extends Component{
 								<div id="top" style={{}}></div>
                 <Header currentLang={this.props.currentLang} changeLanguage={this.props.changeLanguage}/>
                 <TransportTypes ref="RefTransportTypes" img={this.state.transport_img} currentLang={lang}/>
-								<div className='body-wrapper'>
+								<main className='body-wrapper'>
                 	<HomePonudba currentLang={this.props.currentLang}/>
 									<HomePodrocje currentLang={this.props.currentLang}/>
 									<HomeZakaj currentLang={this.props.currentLang}/>
 									<HomeStik currentLang={this.props.currentLang}/>
-								</div>
+								</main>
 								<Footer currentLang={this.props.currentLang}/>
             </div>
         );

@@ -35,8 +35,8 @@ export default class IzredniPrevozi extends Component{
         <HeaderImage bgVideo='/assets/vid/ML3.mp4' text={lang.IzredniPrevozi.title} video={true}/>
 				
 				<StyleRoot>
-					<div style={animStyles.fadeIn} className="section-wrapper izredni">
-						<p>{lang.IzredniPrevozi.content}</p>
+					<div className="section-wrapper izredni">
+						<p style={animStyles.fadeIn}>{lang.IzredniPrevozi.content}</p>
 						<SlideShow style={animStyles.fadeIn} images={this.state.slideshow} width="920px" imagesWidth="800px" imagesHeight="450px" imagesHeightMobile="56vw" infinite fixedImagesHeight />
 					</div>
 				</StyleRoot>

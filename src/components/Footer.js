@@ -9,7 +9,7 @@ export default class Footer extends Component{
 		const lang = this.props.currentLang;
 		
 		return(
-			<div className="footer-section-wrapper">
+			<footer className="footer-section-wrapper">
 				<div className="footer-big-wrapper">
 					<div className="footer-big-img-wrapper">
 						<img width="300" src="/assets/img/magnum_logistika_logo.png" alt="Logo"/>
@@ -35,7 +35,7 @@ export default class Footer extends Component{
 				<div className="footer-copyright-wrapper">
 					<span>Copyright &copy; {moment().format('YYYY')} <a href="https://magnum-logistika.com/">Magnum Logistika</a>. All rights reserved.</span>
 				</div>
-			</div>
+			</footer>
 		);
 	}
 }

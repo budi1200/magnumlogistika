@@ -32,7 +32,7 @@ class Header extends Component{
 	  }
 
 	  return(
-	      <div id="header-wrapper" className="header-wrapper">
+	      <header id="header-wrapper" className="header-wrapper">
 					<div className='header-wrapper-inner'>
 					<HashLink to='/#top' smooth><div style={logo_img} className="logo"></div></HashLink>
 					<button className={"hamburger hamburger--squeeze " + (this.state.isOpen ? "is-active" : "")} type="button" onClick={() => this.toggleMenu()}>
@@ -41,7 +41,7 @@ class Header extends Component{
 						</span>
 					</button>
 		
-					<div className={"header-links " + (!this.state.isOpen ? 'closed' : 'open')}>
+					<nav className={"header-links " + (!this.state.isOpen ? 'closed' : 'open')}>
 	            <ul>
 	                <li><HashLink to='/#top' smooth onClick={() => this.setState({isOpen: false})}>{lang.header.home}</HashLink></li>
 									<li><HashLink to='/#ponudba' smooth onClick={() => this.setState({isOpen: false})}>Ponudba</HashLink></li>
@@ -49,9 +49,9 @@ class Header extends Component{
 	                <li className={this.props.active === 'kontakt' ? "active" : null }><Link style={this.props.active === 'kontakt' ? active_link : null } to='/kontakt' onClick={() => this.setState({isOpen: false})}>{lang.header.contact}</Link></li>
 	                {/*<li className="lang-li"><LangMenu changeLanguage={this.props.changeLanguage} currentLangCode={this.props.currentLang.header.lang}/></li>*/}
 	            </ul>
-	        </div>
+	        </nav>
 					</div>
-	      </div>
+	      </header>
 	  );
 	}
 }
