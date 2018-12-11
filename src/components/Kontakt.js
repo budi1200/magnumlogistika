@@ -99,7 +99,7 @@ class Kontakt extends Component{
 									<div>
 										<h3>{lang.kontakt.trgovina_title}</h3>
 										<ul className="kontakt-main_ul">
-											<li className="kontakt-main_li">Nina Lpavec</li>
+											<li className="kontakt-main_li">Nina Ipavec</li>
 											<ul>
 												<li>{lang.kontakt.telefon}: <a href="tel:+38670777117">+386 70 777 117</a></li>
 												<li>{lang.kontakt.mail}: <a href="mailto:nina@magnum-logistika.si">nina@magnum-logistika.si</a></li>
