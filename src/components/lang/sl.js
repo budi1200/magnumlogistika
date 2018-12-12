@@ -2,8 +2,8 @@ const lang1 = {
     header: {
         home: 'Domov',
         about: 'O Nas',
-        service: 'Servis',
-        contact: 'Kontakt',
+        servis: 'Servis & Trgovina',
+				contact: 'Kontakt',
         lang: 'sl'
     },
     content: {
