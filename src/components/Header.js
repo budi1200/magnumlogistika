@@ -46,6 +46,7 @@ class Header extends Component{
 	                <li><HashLink to='/#top' smooth onClick={() => this.setState({isOpen: false})}>{lang.header.home}</HashLink></li>
 									<li><HashLink to='/#ponudba' smooth onClick={() => this.setState({isOpen: false})}>Ponudba</HashLink></li>
 	                <li className={this.props.active === 'o-nas' ? "active" : null }><Link style={this.props.active === 'o-nas' ? active_link : null } to='/o-nas' onClick={() => this.setState({isOpen: false})}>{lang.header.about}</Link></li>
+									<li className={this.props.active === 'servis' ? "active" : null }><Link style={this.props.active === 'servis' ? active_link : null } to='/servis' onClick={() => this.setState({isOpen: false})}>{lang.header.servis}</Link></li>
 	                <li className={this.props.active === 'kontakt' ? "active" : null }><Link style={this.props.active === 'kontakt' ? active_link : null } to='/kontakt' onClick={() => this.setState({isOpen: false})}>{lang.header.contact}</Link></li>
 	                {/*<li className="lang-li"><LangMenu changeLanguage={this.props.changeLanguage} currentLangCode={this.props.currentLang.header.lang}/></li>*/}
 	            </ul>
