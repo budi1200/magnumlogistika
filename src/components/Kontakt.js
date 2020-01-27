@@ -61,12 +61,6 @@ class Kontakt extends Component{
             	                <li>{lang.kontakt.telefon}: <a href="tel:+38670422970">+386 70 422 970</a></li>
             	                <li>{lang.kontakt.mail}: <a href="mailto:natasa@magnum-logistika.si">natasa@magnum-logistika.si</a></li>
             	            </ul>
-
-            	            <li className="kontakt-main_li">Jaka Rihtarič Horvat</li>
-            	            <ul>
-            	                <li>{lang.kontakt.telefon}: <a href="tel:+38670267180">+386 70 267 180</a></li>
-            	                <li>{lang.kontakt.mail}: <a href="mailto:jaka@magnum-logistika.si">jaka@magnum-logistika.si</a></li>
-            	            </ul>
             	        </ul>
             	    </div>
 
@@ -83,15 +77,10 @@ class Kontakt extends Component{
             	    <div>
             	        <h3>{lang.kontakt.vulkanizerstvo_title}</h3>
             	        <ul className="kontakt-main_ul">
-            	            <li className="kontakt-main_li">Marko Strašek</li>
-            	            <ul>
-            	                <li>{lang.kontakt.telefon}: <a href="tel:+38631290244">+386 31 290 244</a></li>
-            	                <li>{lang.kontakt.mail}: <a href="mailto:marko@magnum-logistika.si">marko@magnum-logistika.si</a></li>
-            	            </ul>
-
             	            <li className="kontakt-main_li">David Čonč</li>
             	            <ul>
             	                <li>{lang.kontakt.telefon}: <a href="tel:+38641686120">+386 41 686 120</a></li>
+	    			<li>{lang.kontakt.mail}: <a href="mailto:david@magnum-logistika.si">david@magnum-logistika.si</a></li>
             	            </ul>
             	        </ul>
             	    </div>
@@ -99,10 +88,10 @@ class Kontakt extends Component{
 									<div>
 										<h3>{lang.kontakt.trgovina_title}</h3>
 										<ul className="kontakt-main_ul">
-											<li className="kontakt-main_li">Nina Ipavec</li>
+											<li className="kontakt-main_li">Jaka Rihtarič Horvat</li>
 											<ul>
-												<li>{lang.kontakt.telefon}: <a href="tel:+38670777117">+386 70 777 117</a></li>
-												<li>{lang.kontakt.mail}: <a href="mailto:nina@magnum-logistika.si">nina@magnum-logistika.si</a></li>
+												<li>{lang.kontakt.telefon}: <a href="tel:+38670267180">+386 70 267 180</a></li>
+												<li>{lang.kontakt.mail}: <a href="mailto:jaka@magnum-logistika.si">jaka@magnum-logistika.si</a></li>
 											</ul>
 										</ul>
 									</div>
